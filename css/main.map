@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/main.css",
+	"sources": [
+		"../sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import url('https://fonts.googleapis.com/css?family=Ubuntu');\n*{\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline;\n  box-sizing: border-box;\n}\n\nhtml {\n  font-family: Ubuntu, Trebuchet, Tahoma, Helvetica, Arial, sans-serif;\n  font-size: 20px;\n  line-height: 1.5;\n//  color: #CCC;\n//  background: linear-gradient(180deg, #e5e5ec, #252424);\n}\n\n.wrapper {\n  background-color: aqua;\n  width: 90%;\n  margin: auto;\n  text-align: center;\n}\n\n.page {\n  display: none;\n}\n\n.page.active {\n  display: inherit;\n}\n\n.att{\n  width: 40%;\n  margin: auto;\n}\n\nh1 {\n  font-size: 4rem;\n  margin-bottom: 4rem;\n}\n\nh2 {\n  font-size: 2rem;\n  margin-top: 4rem;\n}\n\n.search {\n  font-size: 2rem;\n}\n#input {\n  border: solid;\n}\n\n"
+	],
+	"mappings": "AAAA,OAAO,CAAC,qDAAI;;AACZ,AAAA,CAAC,CAAA;EACC,MAAM,EAAE,CAAE;EACV,OAAO,EAAE,CAAE;EACX,MAAM,EAAE,CAAE;EACV,SAAS,EAAE,IAAK;EAChB,IAAI,EAAE,OAAQ;EACd,cAAc,EAAE,QAAS;EACzB,UAAU,EAAE,UAAW;CACxB;;;AAED,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,uDAAwD;EACrE,SAAS,EAAE,IAAK;EAChB,WAAW,EAAE,GAAI;CAGlB;;;AAED,AAAA,QAAQ,CAAC;EACP,gBAAgB,EAAE,IAAK;EACvB,KAAK,EAAE,GAAI;EACX,MAAM,EAAE,IAAK;EACb,UAAU,EAAE,MAAO;CACpB;;;AAED,AAAA,KAAK,CAAC;EACJ,OAAO,EAAE,IAAK;CACf;;;AAED,AAAK,KAAA,AAAA,OAAO,CAAC;EACX,OAAO,EAAE,OAAQ;CAClB;;;AAED,AAAA,IAAI,CAAA;EACF,KAAK,EAAE,GAAI;EACX,MAAM,EAAE,IAAK;CACd;;;AAED,AAAA,EAAE,CAAC;EACD,SAAS,EAAE,IAAK;EAChB,aAAa,EAAE,IAAK;CACrB;;;AAED,AAAA,EAAE,CAAC;EACD,SAAS,EAAE,IAAK;EAChB,UAAU,EAAE,IAAK;CAClB;;;AAED,AAAA,OAAO,CAAC;EACN,SAAS,EAAE,IAAK;CACjB;;;AACD,AAAA,MAAM,CAAC;EACL,MAAM,EAAE,KAAM;CACf",
+	"names": []
+}

@@ -9,13 +9,48 @@
   box-sizing: border-box;
 }
 
-body {
+html {
   font-family: Ubuntu, Trebuchet, Tahoma, Helvetica, Arial, sans-serif;
   font-size: 20px;
+  line-height: 1.5;
 //  color: #CCC;
 //  background: linear-gradient(180deg, #e5e5ec, #252424);
 }
 
 .wrapper {
-  width: 80%;
+  background-color: aqua;
+  width: 90%;
+  margin: auto;
+  text-align: center;
 }
+
+.page {
+  display: none;
+}
+
+.page.active {
+  display: inherit;
+}
+
+.att{
+  width: 40%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 4rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 4rem;
+}
+
+.search {
+  font-size: 2rem;
+}
+#input {
+  border: solid;
+}
+
