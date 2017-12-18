@@ -1,47 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Movies Recommendation</title>
+  <title>Search your movies. You know it to be true!</title>
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="css/main.css">
   <script src="./js/iconic.min.js"></script>
   <script src="./js/main.js"></script>
 </head>
+
 <body>
   <main class="wrapper">
-    <div id="start" class="page active">
-      <h1>Search your movies</h1>
-      <div class="search">
-        <input type="text" id="input" placeholder="search" autofocus/>
-        <img id="btnSearch" class="iconic iconic-md" data-src="./img/magnifying-glass.svg" alt="Search" title="Search"/>
-      </div>
-      <h2>You know it to be true.</h2>
-      <figure class="att">
-        <a href="https://www.themoviedb.org"><img src="./img/powered-by-rectangle-blue.svg" alt="The Movie DB"/></a>
-      </figure>
-      <p class="footer">&copy;<time datetime="2017">2017</time> Ernilo Dallagnolo Junior</p>
-    </div>
+    <header class="search">
+      <h1 class="active">Search your movies</h1>
+      <div class="back-btn"><img id="back-button" data-src="./img/carriage-return.svg" class="iconic iconic-md" data-direction="left" alt="Back Button" title="Back" /></div>
+      <input type="text" id="input" placeholder="Type a keyword to search for a movie" />
+      <div class="search-btn"><img id="search-button" class="iconic iconic-md" data-src="./img/magnifying-glass.svg" alt="Search" title="Search" /></div>
+    </header>
 
     <div id="results" class="page">
-      <header>
-        <h3>Search your Movies</h3>
-        <figure class="smallatt">
-         <a href="https://www.themoviedb.org"><img src="./img/stacked-blue.svg" alt="The Movie DB" /></a>
-        </figure>
-        <div class="search">
-          <input type="text" id="input" placeholder="search" autofocus/>
-          <img id="btnSearch" class="iconic iconic-md" data-src="./img/magnifying-glass.svg" alt="Search" title="Search"/>
-        </div>
-      </header>
-      <h4>You have X Results</h4>
-      <section id="content"></section>
+      <section class="title"></section>
+      <section class="content flex-container"></section>
+    </div>
+    <div id="recommended" class="page">
+      <section class="title"></section>
+      <section class="content flex-container"></section>
     </div>
 
-    <div id="overlay"></div>
-    
+
+  <footer>
+    <figure class="att">
+      <a href="https://www.themoviedb.org"><img src="./img/powered-by-rectangle-blue.svg" alt="The Movie DB"/></a>
+    </figure>
+    <p class="footer">&copy;<time datetime="2017">2017</time> Ernilo Dallagnolo Junior</p>
+  </footer>
   </main>
 </body>
+
 </html>
